@@ -17,9 +17,9 @@ const PrimeVideo = props => {
         className="image"
       />
       <div className="movies-container">
-        <h1 className="movies-heading">Action Movie</h1>
+        <h1 className="movies-heading">Action Movies</h1>
         <ReactSlick eachItem={actionItem} />
-        <h1 className="movies-heading">Comedy Movie</h1>
+        <h1 className="movies-heading">Comedy Movies</h1>
         <ReactSlick eachItem={comedyItem} />
       </div>
     </div>
